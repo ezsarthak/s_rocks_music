@@ -13,8 +13,8 @@ lib/
 │   └── utils/                  # Helper functions and utilities
 ├── data/                       # Data layer
 │   └── models/                 # Data models and entities
-├── viewmodels/                 # Business logic and state management
+├── viewmodels/                 # Business logic 
 ├── views/                      # UI layer - screens and pages
-│   ├── home_screen/           # Home screen components
+│   ├── home_screen/           # Home screen components and state management
 │   └── music_service_detail_screen/  # Music service detail screen
 └── widgets/                    # Reusable UI components
