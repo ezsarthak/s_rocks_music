@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:s_rocks_music/models/music_service_model.dart';
-import 'package:s_rocks_music/utils/dimensions.dart';
+import 'package:s_rocks_music/data/models/music_service_model.dart';
+import 'package:s_rocks_music/core/utils/dimensions.dart';
 import 'package:s_rocks_music/views/music_service_deatil_screen/ui/music_service_detail_screen.dart';
 import 'package:s_rocks_music/widgets/app_text.dart';
 

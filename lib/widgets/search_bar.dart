@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:s_rocks_music/utils/dimensions.dart';
+import 'package:s_rocks_music/core/utils/dimensions.dart';
 
 class AppSearchBar extends StatelessWidget {
   const AppSearchBar({super.key});

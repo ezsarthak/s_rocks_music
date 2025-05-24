@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:meta/meta.dart';
-import 'package:s_rocks_music/models/failure.dart';
-import 'package:s_rocks_music/models/music_service_model.dart';
+import 'package:s_rocks_music/data/models/failure.dart';
+import 'package:s_rocks_music/data/models/music_service_model.dart';
 import 'package:s_rocks_music/viewmodels/home_viewmodel.dart';
 
 part 'home_event.dart';

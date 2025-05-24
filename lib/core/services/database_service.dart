@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:s_rocks_music/models/music_service_model.dart';
+import 'package:s_rocks_music/data/models/music_service_model.dart';
 
 const String musicServiceRef = 'music_services';
 
@@ -19,7 +19,7 @@ class DatabaseService {
         );
   }
 
-  Stream<QuerySnapshot<MusicServiceModel>>  getMusicServices() {
+  Stream<QuerySnapshot<MusicServiceModel>> getMusicServices() {
     return _musicServicesCollection.snapshots();
   }
 }
