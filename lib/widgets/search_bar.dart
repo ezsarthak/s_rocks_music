@@ -1,46 +1,36 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:s_rocks_music/utils/dimensions.dart';
 
-class MinimalSearchBar extends StatelessWidget {
+class AppSearchBar extends StatelessWidget {
+  const AppSearchBar({super.key});
+
   @override
   Widget build(BuildContext context) {
+    Dimensions dimensions = Dimensions(context);
+
     return Container(
-      height: 56,
-      margin: EdgeInsets.all(10),
-      padding: EdgeInsets.symmetric(horizontal: 18),
+      padding: EdgeInsets.symmetric(horizontal: 18, vertical: 12),
       decoration: BoxDecoration(
-        color: Color(0xFF4A5568),
-        borderRadius: BorderRadius.circular(28),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black26,
-            blurRadius: 8,
-            offset: Offset(0, 2),
-          ),
-        ],
+        color: Color(0xFF2F2F39),
+        borderRadius: BorderRadius.circular(10),
       ),
       child: Row(
         children: [
-          Icon(
-            Icons.search,
-            color: Colors.white70,
-            size: 24,
-          ),
+          Icon(Icons.search, color: Colors.white, size: 24),
           SizedBox(width: 16),
           Expanded(
             child: Text(
               'Search "Punjabi Lyrics"',
-              style: TextStyle(
-                color: Color(0xFF9CA3AF),
-                fontSize: 16,
+              style: GoogleFonts.syne(
+                fontSize: dimensions.h6,
+                fontWeight: FontWeight.w700,
+                color: Color(0xFF61616B),
               ),
             ),
           ),
           SizedBox(width: 16),
-          Icon(
-            Icons.mic,
-            color: Colors.white70,
-            size: 24,
-          ),
+          Icon(Icons.mic, color: Colors.white, size: 24),
         ],
       ),
     );

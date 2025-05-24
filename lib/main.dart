@@ -12,10 +12,9 @@ Future<void> main() async {
   FirebaseFirestore.instance.settings = const Settings(
     persistenceEnabled: true,
   );
-  
+
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      /// transparent status bar
       statusBarColor: Color(0xffA90140),
       statusBarIconBrightness: Brightness.light,
     ),
