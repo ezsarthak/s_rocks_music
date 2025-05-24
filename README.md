@@ -18,3 +18,8 @@ lib/
 │   ├── home_screen/           # Home screen components and state management
 │   └── music_service_detail_screen/  # Music service detail screen
 └── widgets/                    # Reusable UI components
+```
+# Video
+
+https://github.com/user-attachments/assets/c1a485d3-6a19-40b2-ac83-9dda536cf1d8
+
